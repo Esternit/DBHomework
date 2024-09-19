@@ -53,9 +53,10 @@ public class BookService {
     }
 
     public void addBook(Book book) {
-        Optional<Book> optionalBook = getBookById(book.getId());
-        if(optionalBook.isPresent()) {
-            throw new IllegalArgumentException("Book with id " + book.getId() + " already exists");
+        for(Book b : books) {
+            if (b.getId() == book.getId()) {
+                throw new IllegalArgumentException("Book with id " + book.getId() + " already exists");
+            }
         }
         books.add(book);
         saveBooks();
