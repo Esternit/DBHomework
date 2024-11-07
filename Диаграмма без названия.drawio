@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Страница — 1" id="0S1JIXBWdZlQG3bKPibP">
-    <mxGraphModel dx="1121" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1631" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,6 +113,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="271" y="953" as="sourcePoint" />
             <mxPoint x="400" y="1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="1210" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1AuL-2awDhLLWzgHiO8z-46" value="Работает" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="1AuL-2awDhLLWzgHiO8z-45">
@@ -123,6 +126,21 @@
         </mxCell>
         <mxCell id="1AuL-2awDhLLWzgHiO8z-49" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="535" y="1158" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AuL-2awDhLLWzgHiO8z-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.004;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1AuL-2awDhLLWzgHiO8z-43" target="1AuL-2awDhLLWzgHiO8z-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437" y="969" as="sourcePoint" />
+            <mxPoint x="436" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1AuL-2awDhLLWzgHiO8z-51" value="Работает с" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="1AuL-2awDhLLWzgHiO8z-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AuL-2awDhLLWzgHiO8z-52" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1008" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AuL-2awDhLLWzgHiO8z-53" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="818" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
